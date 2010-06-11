@@ -1,0 +1,116 @@
+body {
+	padding: 0;
+	margin: 0;
+	background-color:  #b2b178;
+	font-family:'Helvetica Neue','Helvetica','Arial',sans-serif;
+	color: #313121;
+}
+
+#page{
+	width: 902px;
+	min-height: 700px;
+	margin: 0 auto 0;
+	position:relative;
+    background-color: #f3f2c3;
+
+}
+#footer {
+	font-size: 10px;
+	width: 902px;
+	padding-top: 15px;
+	min-height: 50px;
+	margin: 0 auto 0;
+	position:relative;
+	background-color: #f3f2c3;
+	background-image: -moz-linear-gradient(
+		center bottom,
+		rgb(178,177,120) 26%,
+		rgb(243,242,195) 74%
+	);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.01, rgb(178,177,120)),
+		color-stop(0.54, rgb(243,242,195))
+	);
+}
+
+a {
+	color: #313121;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover, a:visited, a:active {
+	color: #313121;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: 10px;
+}
+
+.shadowy {
+	font-size:16px;
+    color: #313121;
+	text-shadow: 0 0 5px rgba(0,0,0,0.4)
+}
+
+.pics {
+    border-left:  1px solid #474630;
+    border-right:  1px solid #474630;
+    border-bottom:  1px solid #474630;
+    height:  450px;
+    width:   900px;
+    padding: 0;
+    margin:  0;
+}
+
+#showcase {
+	position: floating;
+}
+
+#title {
+	position: absolute;
+	top: 0px;
+	color: red;
+	z-index: 10;
+	font-size: 72px;
+	font-family: sans;
+}
+
+#tweet {
+	position: floating;
+	float: right;
+	width: 250px;
+	font-family: Arial;
+	font-size: 12px;
+	padding-right: 10px;
+	margin: 10px;
+}
+
+#download {
+	text-align: center;
+	position: floating;
+	float: right;
+	width: 250px;
+	font-family: Arial;
+	font-size: 12px;
+	padding-right: 10px;
+	height: 200px;
+	margin: 10px;
+}
+
+#left {
+	position: floating;
+	float: left;
+	width: 250px;
+	font-family: Arial;
+	font-size: 12px;
+	padding-right: 10px;
+}
