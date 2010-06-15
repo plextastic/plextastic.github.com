@@ -1,13 +1,6 @@
 // Flattr settings
-var flattr_btn = 'compact';
-var flattr_uid = '215';
-var flattr_tle = 'the entry title';
-var flattr_dsc = 'the entry description, please be as thorough as possible';
-var flattr_cat = 'category';
-var flattr_lng = 'language';
-var flattr_tag = 'tag1, tag2, tag3';
-var flattr_url = 'http://www.example.com';
-var flattr_hide = 'true';
+var flattr_url = 'http://plextastic.github.com';
+var flattr_btn='compact';
 
 // Twitter feed
 /*
